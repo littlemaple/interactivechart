@@ -14,19 +14,17 @@
   limitations under the License.
   -->
 
-<com.android.espresso.InteractiveLineChartView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.espresso.InteractiveLineChartView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/chart"
-    android:padding="@dimen/chart_padding"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:labelSeparation="10dp"
-    app:labelTextSize="14sp"
-    app:labelTextColor="#d000"
+    android:padding="@dimen/chart_padding"
     app:axisThickness="2dp"
-    app:axisColor="#441199"
-    app:gridThickness="1dp"
-    app:gridColor="#2000"
     app:dataColor="#a6c"
-    app:dataThickness="8dp" />
+    app:dataThickness="8dp"
+    app:gridColor="#2000"
+    app:gridThickness="1dp"
+    app:labelSeparation="10dp"
+    app:labelTextColor="#d000"
+    app:labelTextSize="14sp" />

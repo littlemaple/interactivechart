@@ -16,5 +16,5 @@
 
 <resources>
     <dimen name="chart_padding">16dp</dimen>
-    <dimen name="min_chart_size">1000dp</dimen>
+    <dimen name="min_chart_size">100dp</dimen>
 </resources>
